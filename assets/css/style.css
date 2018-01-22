@@ -51,15 +51,24 @@ ul li {
 	display: inline;
 }
 
-ul li a {
+nav a  {
 	color: #777777;
 	text-decoration: none;
+	margin-left: 20px;
+	border-right: 1px solid #777777;
+	padding-right: 20px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.nav-border{
-	border-right: 1px solid #777777;
+nav {
+	float: right;
+	margin-top: 30px;
 }
+
+.no-border{
+	border-right: none;
+}
+
 
 h1 {
 	color: #4aaaa5;
@@ -116,6 +125,7 @@ footer {
 #footer {
 	color: white;
 	text-align: center;
+	line-height: normal;
 }
 	
 .icon {

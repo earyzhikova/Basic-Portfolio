@@ -231,6 +231,15 @@ footer {
 	float: right;
 	margin: 20px 20px 20px 0;
 }
+
+#port13 {
+	position: relative;
+	width: 250px;
+	height: 200px;
+	float: left;
+	margin: 20px 20px 20px 0;
+}
+
 img {
 	width: 280px;
 	height: 200px;
